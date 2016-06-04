@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class Assn1IntRate {
-
 	/*
 	 * This class will call for 3 values from the user: 1) deposit amount, 2) annual interest rate, 3) time in years.
 	 * Asks the user for values with Scanner for input, then prints out to the console
