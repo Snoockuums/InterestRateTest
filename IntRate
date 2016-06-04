@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.text.NumberFormat;
+
+public class IntRate {
+
+	/*
+	 * This class will call for 3 values from the user: 1) deposit amount, 2) annual interest rate, 3) time in years.
+	 * Asks the user for values with Scanner for input, then prints out to the console
+	 * how much money in total will you have after the inputted time.
+	 */
+	public static void main(String[] args) {
+		Scanner int deposit = new Scanner(System.in);
+		System.out.println("Please define deposit amount: ");
+		
+		int interestrate = input.nextInt();
+		System.out.println("Please define annual interest rate: ");
+		
+		int time = input.nextInt();
+		System.out.println("Please define the time in years from initial date of desposit: ");
+		
+	
+		int product = desposit*interestrate;
+		int total = product*time;
+		
+		System.out.println("Your total accrued interest is " + total + ".");
+
+	}
+
+}
